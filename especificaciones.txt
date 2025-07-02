@@ -1,0 +1,21 @@
+Ejercicio para practicar estructuras de datos en Python: implementación de un pequeño sistema de inventario para materiales de construcción. La idea es usar listas y diccionarios para almacenar la información y ofrecer un menú de opciones para manipular los datos. Este proyecto ayuda a reforzar conceptos básicos de listas, diccionarios y funciones.
+Descripción general
+Se debe crear un script que permita:
+Registrar materiales (por ejemplo, bloques, ladrillos, cemento, etc.), guardando nombre, cantidad y algún identificador único.
+Listar los materiales existentes.
+Actualizar la cantidad de un material específico.
+Eliminar un material del inventario.
+Buscar un material por nombre o por identificador.
+Recomendaciones de implementación
+Utilizar una lista principal para almacenar diccionarios. Cada diccionario representa un material con sus atributos (ej. "id", "nombre", "cantidad").
+Diseñar funciones para cada opción del menú (agregar, listar, actualizar, eliminar, buscar).
+Validar que el identificador sea único al momento de ingresar un nuevo material.
+Mantener el código modular y bien comentado, de forma que resulte fácil de extender más adelante (por ejemplo, agregando persistencia en archivos).
+Ejemplo de estructura de datos inicial
+inventario = [ {"id": 1, "nombre": "Ladrillos", "cantidad": 120}, {"id": 2, "nombre": "Cemento", "cantidad": 50} ]
+Con este ejercicio, los alumnos trabajarán con:
+Manipulación de listas y diccionarios.
+Definición de funciones y paso de parámetros.
+Búsqueda y modificación de elementos dentro de una colección.
+Creación de un menú interactivo simple en la consola.
+Esta práctica es breve, permite explorar los conceptos esenciales de estructura de datos en Python y se ajusta bien a una sesión de aproximadamente dos horas.
